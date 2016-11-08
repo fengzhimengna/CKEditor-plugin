@@ -37,5 +37,5 @@ CKEDITOR.editorConfig = function( config ) {
 	config.removeDialogTabs = 'image:advanced;link:advanced';
 	
 	// 自定义插件
-	config.extraPlugins = "helloworld";
+	config.extraPlugins = "helloworld,ajax";
 };

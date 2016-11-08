@@ -5,8 +5,9 @@ CKEDITOR.plugins.add('helloworld', {
         editor.addCommand(pluginName, new CKEDITOR.dialogCommand(pluginName));
         editor.ui.addButton(pluginName,
         {
-            label: 'Hello',
-            command: pluginName
+            label: '来源图片库',
+            command: pluginName,
+			icon:CKEDITOR.getUrl( this.path + 'images/helloworld.png' )
         });
     }
 });
